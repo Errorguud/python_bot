@@ -1,0 +1,2 @@
+TOKEN = ""
+QIWI_TOKEN = ""
