@@ -7,7 +7,6 @@ import markups as nav
 from db import Database
 from pyqiwip2p import QiwiP2P
 import random
-from markups import kb_client
 
 logging.basicConfig(level=logging.INFO)
 
