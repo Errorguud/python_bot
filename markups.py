@@ -1,9 +1,5 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, KeyboardButton, ReplyKeyboardMarkup
 
-b1 = KeyboardButton('/start')
-kb_client = ReplyKeyboardMarkup()
-kb_client.add(b1)
-kb_client = ReplyKeyboardMarkup(resize_keyboard=True).add(b1)
 
 btnTopUp = InlineKeyboardButton(text="Пополнить", callback_data="top_up")
 topUpMenu = InlineKeyboardMarkup(row_width=1)
